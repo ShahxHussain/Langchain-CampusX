@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length_input",
+        "paper_input",
+        "style_input"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": " \n        Paper Name: {paper_input}\n        Explanation Style: {style_input}\n        Explanation Length: {length_input}\n        Act as a paper reviewer and explain the paper in a way Best way to understand the paper.\n        Analogies: use Ralatable Analogies to simplify the complex ideas\n        NOTE: If certain informtation is not available in the paper, don't use your own knowledge respond with \"I don't know\".\n",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
