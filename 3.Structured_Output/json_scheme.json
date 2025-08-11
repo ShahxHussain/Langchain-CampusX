@@ -1,0 +1,11 @@
+{
+    "title": "ShahxHussain",
+    "description": "Learning json Schema from CampusX",
+    "type": "",
+    "properties": {
+        "summary": "string",
+        "sentiment":"string",
+        "name": "string"
+    },
+    "required": ["summary", "name"]
+}
