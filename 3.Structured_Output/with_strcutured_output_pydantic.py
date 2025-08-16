@@ -7,7 +7,7 @@ You can also add Literals and optionals
 sentiment:  Annotated[Literal["P", "S", "N"], "Retrun sentiment of a review either positive, negative or neutral"]
 name: Annotated[Optional[list[str]], "Write down the name of a reviever"]
 '''
-
+    
 load_dotenv()
 
 model = ChatGoogleGenerativeAI(
